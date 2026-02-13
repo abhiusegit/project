@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Abhishek Sharma | Match Profile</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: #5875ae;
+            font-family: Arial, sans-serif;
+        }
+
+        .profile-card {
+    width: 900px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    display: flex;
+    box-shadow: 0 40px 60px rgba(255, 0, 100, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+
+        /* LEFT SIDE */
+        .left-section {
+            width: 45%;
+            background-color: #c8d3d8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left-section img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .bottom-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        /* RIGHT SIDE */
+        .right-section {
+            width: 55%;
+            padding: 30px;
+            background-color: #a1b5de;
+        }
+
+        .match-box {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .match-box span {
+            background-color: #399f3c;
+            color: rgb(105, 58, 58);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin: 0;
+            color: #333;
+        }
+
+        .details {
+            margin-top: 30px;
+            background-color: aqua;
+        }
+
+        .details div {
+            padding: 12px;
+            margin-bottom: 8px;
+            background-color: #ffffff;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            font-size: 14px;
+        }
+
+        .details strong {
+            color: #333;
+        }
+
+        .links a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #2196f3;
+            font-weight: bold;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+        p{
+            text-align: center;
+            column-gap: 0cap;
+            font-size: 20px;
+            color: #0b0b90;
+        }
+        /* Floating Hearts Container */
+.hearts {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+/* Individual Hearts */
+.hearts span {
+    position: absolute;
+    bottom: -20px;
+    font-size: 20px;
+    color: rgba(255, 0, 100, 0.6);
+    animation: floatUp 8s linear infinite;
+}
+
+/* Random Positions */
+.hearts span:nth-child(1) { left: 10%; animation-duration: 7s; }
+.hearts span:nth-child(2) { left: 20%; animation-duration: 9s; }
+.hearts span:nth-child(3) { left: 35%; animation-duration: 6s; }
+.hearts span:nth-child(4) { left: 50%; animation-duration: 8s; }
+.hearts span:nth-child(5) { left: 65%; animation-duration: 7s; }
+.hearts span:nth-child(6) { left: 75%; animation-duration: 10s; }
+.hearts span:nth-child(7) { left: 85%; animation-duration: 6s; }
+.hearts span:nth-child(8) { left: 95%; animation-duration: 8s; }
+
+/* Floating Animation */
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(-100vh) scale(1.5);
+        opacity: 0;
+    }
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="hearts">
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+    <span>❤</span>
+</div>
+
+
+<div class="profile-card">
+
+    <!-- LEFT SIDE -->
+    <div class="left-section">
+        <img src="w.png.png" alt="Abhishek Sharma">
+
+        <div class="bottom-info">
+            <span>IIIT Ranchi</span>
+            <span>18 Yrs</span>
+        </div>
+    </div>
+
+
+    <!-- RIGHT SIDE -->
+    <div class="right-section">
+
+        <div class="match-box">
+            <!-- <span>95% Match</span> -->
+        </div>
+
+        <h2>Abhishek Sharma</h2>
+
+        <div class="details">
+            <div><strong>Height:</strong> 5'11"</div>
+            <div><strong>Education:</strong> Bachelor's Degree</div>
+            <div><strong>Occupation:</strong> Developer</div>
+            <div><strong>Hobby:</strong> Coding 💻 (lakin rating 1000 ke par nhi ja rhi h )</div>
+            <div><strong>Personality:</strong> Dekh ke fatt jayegi </div>
+        </div>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/abhishek-sharma-394911398/" target="_blank">
+                🔗 LinkedIn Profile
+            </a>
+            <a href="https://www.instagram.com/abhishekuseinsta/" target="_blank">
+                📸 Instagram
+
+            </a>
+            <p>
+              "Stil Single but ready to mingle"
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
